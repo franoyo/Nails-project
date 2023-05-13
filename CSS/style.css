@@ -1,0 +1,270 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+@font-face {
+    font-family:pacifico ;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family:satisfy ;
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+.header-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100vw;
+height: 20vh;
+background-image: linear-gradient(210deg, #ffa5ff 0,
+ #ff9dff 12.5%, #ff93ff 25%, #ff88fb 37.5%, #d079e5 50%, #a36acc 62.5%, #7d5db6 75%, #5b52a1 87.5%, #3d4890 100%);
+
+}
+.header-container .container-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25%;
+height: 100%;
+
+
+}
+.container-logo .put-logo{
+    display: flex;
+width: 70%;
+height: 90%;
+
+
+}
+.put-logo .logo{
+width: 100%;
+height: 100%;
+
+}
+.header-container .container-subpages{
+    display: flex;
+width: 50%;
+height: 50%;
+border-top-left-radius: 3vw;
+background-image: linear-gradient(95deg, #c2ffff 0, #8ab7f4 50%, #4a515f 100%);
+border-bottom-left-radius:3vw ;
+margin-right: 3%;
+border-top-right-radius:3vw ;
+border-bottom-right-radius:3vw ;
+}
+.container-subpages .put-links{
+width: 25%;
+justify-content: center;
+align-items: center;
+height: 100%;
+display: flex;
+
+transition: 0.5s;
+font-family: pacifico ;
+font-size: 1.8vw;
+border-top-left-radius: 3vw;
+border-bottom-left-radius:3vw ;
+border-top-right-radius:3vw ;
+border-bottom-right-radius:3vw ;
+}
+.put-links:hover{
+    background-color: rgb(235, 174, 235);
+border-radius: 50%;
+
+}
+.put-links .enlaces{
+    text-decoration: none;
+color: black;
+}
+.cuerpo{
+    display: flex;
+width: 100vw;
+height: 65vh;
+
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+
+}
+.cuerpo .mitad1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 100%;
+
+
+font-size: 8vh;
+text-align: center;
+
+}
+.mitad1 .uñas{
+width: 60%;
+border-radius: 2vw;
+height: 90%;
+
+}
+.cuerpo .mitad2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+   
+    font-size: 8vh;
+    text-align: center;
+   font-family: satisfy;
+
+}
+.fin{
+    display: flex;
+width: 100vw;
+height: 15vh;
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 3vh;
+}
+@media(orientation:portrait){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+        }
+        @font-face {
+            font-family:pacifico ;
+            src: url(../fonts/Pacifico-Regular.ttf);
+        }
+        @font-face {
+            font-family:satisfy ;
+            src: url(../fonts/Satisfy-Regular.ttf);
+        }
+        .header-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 20vh;
+        background-image: linear-gradient(210deg, #ffa5ff 0,
+         #ff9dff 12.5%, #ff93ff 25%, #ff88fb 37.5%, #d079e5 50%, #a36acc 62.5%, #7d5db6 75%, #5b52a1 87.5%, #3d4890 100%);
+        
+        }
+        .header-container .container-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 60%;
+        
+        
+        }
+        .container-logo .put-logo{
+            display: flex;
+        width: 70%;
+        height: 100%;
+        
+        
+        }
+        .put-logo .logo{
+        width: 100%;
+        height: 100%;
+       
+        
+        }
+        .header-container .container-subpages{
+            display: flex;
+        width: 70%;
+        height: 30%;
+        border-top-left-radius: 3vw;
+        background-image: linear-gradient(95deg, #c2ffff 0, #8ab7f4 50%, #4a515f 100%);
+        border-bottom-left-radius:3vw ;
+        margin-right: 0%;
+        border-top-right-radius:3vw ;
+        border-bottom-right-radius:3vw ;
+        }
+        .container-subpages .put-links{
+        width: 25%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        
+        transition: 0.5s;
+        font-family: pacifico ;
+        font-size: 1.8vw;
+        border-top-left-radius: 3vw;
+        border-bottom-left-radius:3vw ;
+        border-top-right-radius:3vw ;
+        border-bottom-right-radius:3vw ;
+        }
+        .put-links:hover{
+            background-color: rgb(235, 174, 235);
+        border-radius: 50%;
+        
+        }
+        .put-links .enlaces{
+            text-decoration: none;
+        color: black;
+        }
+        .cuerpo{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        width: 100vw;
+        height: 65vh;
+        background-color: beige;
+        
+        }
+        .cuerpo .mitad1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        
+        
+        font-size: 8vh;
+        text-align: center;
+        
+        }
+        .mitad1 .uñas{
+        width: 80%;
+        border-radius: 2vw;
+        height: 90%;
+        
+        }
+        .cuerpo .mitad2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 40%;
+           
+            font-size: 5.5 vh;
+            text-align: center;
+           font-family: satisfy;
+        
+        }
+        .fin{
+            display: flex;
+        width: 100vw;
+        height: 15vh;
+        background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+        radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vh;
+        }
+
+}
