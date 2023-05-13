@@ -515,7 +515,7 @@ display: none;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            overflow: scroll;
+            
             background-color: #F5F5DC;
         }
         .contenedor-cuerpo .mitad-1{
